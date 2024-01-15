@@ -1,0 +1,23 @@
+{
+    "name": "alumne/mp09",
+    "type": "project",
+    "autoload": {
+        "classmap": [
+            "./"
+        ],
+        "files": [
+            "framework/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "alumne",
+            "email": "sleshchuc@iesebre.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "ext-pdo": "*",
+        "ext-http": "*"
+    }
+}
